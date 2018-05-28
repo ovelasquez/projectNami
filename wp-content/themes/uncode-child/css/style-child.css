@@ -1,0 +1,310 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/09/2017, 08:14:06 PM
+    Author     : Mariana
+*/
+
+/* MC */
+.banner-tit{
+    background-color: rgba(174, 191, 227, 0.7); display: inline-block; padding: 5px;
+}
+.banner-tit-owl{
+    background-color: rgba(72, 91, 131, 0.7); padding: 5px;
+}
+
+.style-dark .ui-bg-alpha,
+.style-dark.style-override .ui-bg-alpha,
+.style-light .style-dark .ui-bg-alpha,
+.style-dark input,
+.style-dark.style-override input,
+.style-light .style-dark input,
+.style-dark textarea,
+.style-dark.style-override textarea,
+.style-light .style-dark textarea,
+.style-dark select,
+.style-dark.style-override select,
+.style-light .style-dark select,
+.style-dark .seldiv,
+.style-dark.style-override .seldiv,
+.style-light .style-dark .seldiv,
+.style-dark .select2-choice,
+.style-dark.style-override .select2-choice,
+.style-light .style-dark .select2-choice,
+.style-dark .plan,
+.style-dark.style-override .plan,
+.style-light .style-dark .plan {
+    background-color: rgba(72, 91, 131, 0.5)!important;
+}
+
+.gallery-answers blockquote.pullquote > p:first-of-type {
+    quotes: none!important;
+    font-size:50px!important;
+}
+
+@media (max-width: 959px) {
+    .gallery-answers blockquote.pullquote > p:first-of-type {
+        font-size:38px!important;
+    }
+}
+@media (max-width: 569px) {
+    .gallery-answers blockquote.pullquote > p:first-of-type {
+        font-size:26px!important;
+        font-weight: 600px;
+    }
+    .banner-tit {
+        font-size:30px!important;
+    }
+}
+
+.textual-carousel.gallery-answers .tmb .regular-text {
+    padding: 0px!important;  
+    margin: 1px!important; 
+    text-align: left!important;
+}
+.gallery-answers{
+    margin-top: 18px!important;
+}
+.gallery-answers + divider-wrapper { margin-top: -16px!important; }
+.text-block-home { margin-top: 0px!important; }
+
+
+.gallery-asocs, .gallery-asocs img{ max-height:50px!important;  }
+
+.header-gal-img .tmb .t-entry-visual img {
+    width: auto!important;
+    max-width: 100%!important;
+    margin:0px auto!important;
+}
+
+.tmb .t-entry-visual a:hover {
+    background-color: none;
+}
+
+.md-m-1,.info-banner .btn-container {
+    margin-top: 18px!important;
+}
+.md-p-1x {
+    padding: 10px;
+}
+.md-m-0x {
+    margin: 0px!important;
+}
+.md-txt-certif p{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Dosis;
+    margin: 5px 0px;
+}
+.mf-text-left{
+    text-align:left;
+}
+.mf-text-center{
+    text-align:center;
+}
+.md-text-white{
+    color:white;
+}
+
+.gallery-answers .t-entry-text{display:none;}
+
+.font-family-menu, .menu-container ul.menu-smart a {
+    font-family: Dosis!important; /**/
+}
+
+@media (min-width: 960px) {
+    .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a {
+        color: #485b83 !important;
+    }
+    .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:hover,
+    .style-light-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:focus {
+        color: #ed253b !important;
+    }
+    .style-light-override:not(.is_stuck).menu-transparent .mobile-shopping-cart {
+        color: #485b83 !important;
+    }
+    .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a {
+        color: #485b83 !important;
+    }
+    .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:hover,
+    .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li > a:focus {
+        color: #ed253b !important;
+    }
+    .style-dark-override:not(.is_stuck).menu-transparent .mobile-shopping-cart {
+        color: #485b83 !important;
+    }
+
+    .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.active > a, .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li a.active, .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.current-menu-parent > a, .style-dark-override:not(.is_stuck).menu-transparent .menu-horizontal-inner > .nav > .menu-smart > li.current-menu-ancestor > a {
+        color: #ed253b !important;
+    }
+}
+
+#index-1117486329 .isotope-filters.menu-container:before {
+    content: "Especialidades";
+    margin: 0px 0px 8px 0px;    
+}
+
+.heading-text > div p{
+    font-size: 18px;
+}
+
+
+.menu-item-54941.menu-btn-container.btn, .menu-item-54251.menu-btn-container.btn, .menu-item-55532.menu-btn-container.btn {
+    background: #ed253b;
+    border: #ed253b;
+    color: white;
+}
+
+.is_stuck .menu-item-54941.menu-btn-container.btn,.is_stuck .menu-item-54251.menu-btn-container.btn,.is_stuck .menu-item-55532.menu-btn-container.btn {
+    padding: 5px 31px 5px 31px !important;
+}
+.tmb .t-entry p.t-entry-meta span {
+    font-size: 14px !important;
+}
+#index-196162 .t-entry-excerpt > p{
+    font-size: 14px;
+
+}
+.m-r-1{
+    margin-right: 10px!important;    
+    padding: 10px!important;
+    width: 40px;
+    height: 35px;
+}
+
+#index-1117486329 .text-sol{ color: #485b83;}
+
+.ico-cons-sel{
+    padding: 13px!important;
+    text-transform: none!important;
+    margin-right: 5px;
+    border: 0px!important;
+}
+
+.loading-icon {
+    position: relative;
+    width: 1.28571429em; 
+    margin:0px;
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+.loading-icon:before {
+    content: "\f110";
+    font-family: 'uncodeicon' !important;
+    font-size:3em;
+    position: absolute;
+    top: 0; 
+}
+
+.fa-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.especialistas-list .t-entry-excerpt{
+    height: 50px;
+}
+
+.solicitar-consulta .btn.btn-link{        border: 1px solid; padding: 13px 31px 13px 31px !important; color: #ffffff !important;    background-color: #ed253b !important;    border-color: #ed253b !important;  }
+.solicitar-consulta .btn.btn-link:hover{  color: #ed253b !important;  background-color: #fff !important;  border-color: #ed253b !important;  }
+.doctores .tmb .t-entry-visual img{ height: 100%!important;}
+.doctores .tmb .t-entry-excerpt{ min-height: 60px;}
+.wpcf7-form label{
+    display: block;
+    text-align: left;
+}
+
+.wpcf7-form input[type=text], .wpcf7-form input[type=email]{
+    width: 100%;
+}
+
+.page-id-54030 .onepage-pagination, .page-id-54823 .onepage-pagination{
+    display:none;
+}
+.wpcf7-recaptcha > div{
+    margin: 20px auto;
+}
+.wpcf7 span.wpcf7-not-valid-tip{
+    color: #ed253b!important;
+}
+.wpcf7 .wpcf7-validation-errors{
+    color: #ed253b!important;
+    text-align: center;
+}
+.wpcf7 .wpcf7-display-none.wpcf7-mail-sent-ok {
+    display: none!important;
+}
+
+#wpcf7-f54918-p54030-o1 .wpcf7-display-none.wpcf7-mail-sent-ok{
+    display: block!important;
+    text-transform: uppercase;
+    color: #485b83!important;
+}
+
+.style-light .btn-default.btn-outline, .style-dark .style-light.style-override .btn-default.btn-outline, .style-dark .style-light .btn-default.btn-outline {
+    color: #485b83 !important;
+    background-color: transparent !important;
+    border-color: #485b83 !important;
+}
+.style-light .btn-default.btn-outline:hover,
+.style-dark .style-light.style-override .btn-default.btn-outline:hover,
+.style-dark .style-light .btn-default.btn-outline:hover,
+.style-light .btn-default.btn-outline.active,
+.style-dark .style-light.style-override .btn-default.btn-outline.active,
+.style-dark .style-light .btn-default.btn-outline.active {
+  color: #fff !important;
+  background-color: #485b83 !important;
+  border-color: #485b83 !important;
+}
+.icon-ts-list{
+ position: absolute;
+    z-index: 100;
+    right: 10px;
+    bottom: 10px;   
+}
+.icon-ts-list-ws{
+ position: absolute;
+    z-index: 100;
+    right: 10px;
+    bottom: 40px;   
+}
+.tmb .t-entry-visual img {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+.especialistas-list .tmb .t-entry-visual img {
+    width: 100%!important;
+    max-width: 100%!important;
+    margin: 0px auto;
+}
+
+.single.single-post .style-light .header-main-container .post-info,
+.single.single-post .style-light .header-main-container .post-info a,
+.single.single-post .style-light .header-content-inner h1{
+    color: #fff !important;
+}
+
